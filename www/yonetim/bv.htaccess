@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "FORBIDDEN AREA"
+AuthUserfile "../htdocs/yonetim/.htgirisparola"
+Require valid-user

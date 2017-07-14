@@ -1,0 +1,1 @@
+﻿<?php $belirti=implode($_GET['belirtiler']);$bilgi=$_POST['bilgi'];$bolge=implode($_GET['bolgeler']);$yas=implode($_GET['yas']);$zaman=implode($_GET['zamanlar']);$durum=implode($_GET['durumlar']); ?> 

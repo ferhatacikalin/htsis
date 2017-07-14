@@ -1,0 +1,157 @@
+body{
+	
+background-color: #fafbf1;
+	
+}
+#tablo {
+  ;
+  font-size:20px;
+  font-style:bold;
+  font:Arial, Helvetica, sans-serif;
+  color:#1A1A1A;
+  
+  
+  
+  	}
+#baslikdizin {
+  ;
+  font-size:36px;
+  font-style:normal;
+  font:Arial, Helvetica, sans-serif;
+  color:#FFFFFF;
+  
+  	}
+#baslik {
+  ;
+  font-size:20px;
+  font-style:normal;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#1A1A1A;
+  
+  	}
+#baslik2 {
+  ;
+
+  font-style:normal;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#FFFFFF;
+  
+  	}
+#metin {
+  ;
+ 
+  font-style:normal;
+  width:20;
+  height:5;  
+  font-family:Georgia, "Times New Roman", Times, serif;
+  
+  
+  	}
+#apDiv1 {
+    
+	position: absolute;
+	column-width:auto;
+	left: 5%;
+	top: 10%;
+	width: 90%;
+	height: 80%;
+	z-index: 1;
+	/*background-color:#00CCFF;*/
+
+}	
+#apDiv2 {
+	
+	position: absolute;
+	left: 25%;
+	top: 86%;
+	width: 50%;
+	height: 5%;
+	z-index: 1;
+}
+/*menuler*/
+#TabMenu1
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   border-bottom: 1px solid #C0C0C0;
+   list-style-type: none;
+   padding: 15px 0px 4px 10px;
+   overflow: hidden;
+}
+#TabMenu1 li
+{
+   float: left;
+}
+#TabMenu1 li a.active, #TabMenu1 li a:hover.active
+{
+   background-color: #FFFFFF;
+   color: #666666;
+   position: relative;
+   font-weight: normal;
+   text-decoration: none;
+   z-index: 2;
+}
+#TabMenu1 li a
+{
+   padding: 5px 14px 8px 14px;
+   border: 1px solid #C0C0C0;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #EEEEEE;
+   color: #666666;
+   margin-right: 3px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   -webkit-transition: 200ms all linear;
+   -moz-transition: 200ms all linear;
+   -ms-transition: 200ms all linear;
+   transition: 200ms all linear;
+}
+#TabMenu1 li a:hover
+{
+   background: #C0C0C0;
+   color: #666666;
+   font-weight: normal;
+   text-decoration: none;
+   top: -4px;
+}
+
+/*Carousel*/
+#wb_Carousel1
+{
+   /*background-color:#00CCFF;*/
+}
+#Carousel1 .frame
+{
+		
+		
+
+   width: 581px;
+  
+   display: inline-block;
+   float: left;
+   height: 441px;
+
+}
+#wb_Carousel1 .pagination
+{
+   top: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 999;
+}
+#wb_Carousel1 .pagination img
+{
+   border-style: none;
+   padding: 13px 13px 13px 13px;
+}
